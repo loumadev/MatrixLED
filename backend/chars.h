@@ -1,7 +1,7 @@
-const int s = 5;
+#define SIZE 5
 const String img = "0123456789abcdefghijklmnopqrstuvwxyz. !?:()+-*/\\_%=,\"'`#$&;<>@[]^{}|~";
 
-const uint8_t chars[][s][s] = {
+const uint8_t chars[][SIZE][SIZE] = {
 	{
 		{0, 1, 1, 0, 0},
 		{1, 0, 0, 1, 0},
@@ -494,7 +494,7 @@ const uint8_t chars[][s][s] = {
 	// },
 };
 
-uint8_t unknow[s][s] = {
+uint8_t unknow[SIZE][SIZE] = {
 	{0, 0, 0, 0, 0},
 	{0, 0, 0, 0, 0},
 	{0, 0, 0, 0, 0},
@@ -502,7 +502,7 @@ uint8_t unknow[s][s] = {
 	{0, 0, 1, 0, 0}
 };
 
-uint8_t animation_frames[5][s][s] = {
+uint8_t animation_frames[5][SIZE][SIZE] = {
 	{
 		{0, 0, 0, 0, 0},
 		{0, 0, 0, 0, 0},
